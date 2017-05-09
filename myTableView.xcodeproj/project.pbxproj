@@ -14,6 +14,11 @@
 		00F5A2621EC1774A00366C70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00F5A2601EC1774A00366C70 /* LaunchScreen.storyboard */; };
 		00F5A26D1EC1774A00366C70 /* myTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F5A26C1EC1774A00366C70 /* myTableViewTests.swift */; };
 		00F5A2781EC1774B00366C70 /* myTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F5A2771EC1774B00366C70 /* myTableViewUITests.swift */; };
+		00F5A2861EC1788000366C70 /* TacoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F5A2851EC1788000366C70 /* TacoViewController.swift */; };
+		00F5A2881EC1788D00366C70 /* BurritoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F5A2871EC1788D00366C70 /* BurritoViewController.swift */; };
+		00F5A28C1EC1796800366C70 /* burrito.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00F5A2891EC1796800366C70 /* burrito.jpg */; };
+		00F5A28D1EC1796800366C70 /* taco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00F5A28A1EC1796800366C70 /* taco.jpg */; };
+		00F5A28E1EC1796800366C70 /* taco2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 00F5A28B1EC1796800366C70 /* taco2.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		00F5A2731EC1774A00366C70 /* myTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00F5A2771EC1774B00366C70 /* myTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTableViewUITests.swift; sourceTree = "<group>"; };
 		00F5A2791EC1774B00366C70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00F5A2851EC1788000366C70 /* TacoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TacoViewController.swift; sourceTree = "<group>"; };
+		00F5A2871EC1788D00366C70 /* BurritoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BurritoViewController.swift; sourceTree = "<group>"; };
+		00F5A2891EC1796800366C70 /* burrito.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = burrito.jpg; path = Assets.xcassets/burrito.jpg; sourceTree = "<group>"; };
+		00F5A28A1EC1796800366C70 /* taco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = taco.jpg; path = Assets.xcassets/taco.jpg; sourceTree = "<group>"; };
+		00F5A28B1EC1796800366C70 /* taco2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = taco2.jpeg; path = Assets.xcassets/taco2.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +109,12 @@
 			children = (
 				00F5A2571EC1774A00366C70 /* AppDelegate.swift */,
 				00F5A2591EC1774A00366C70 /* ViewController.swift */,
+				00F5A2891EC1796800366C70 /* burrito.jpg */,
+				00F5A28A1EC1796800366C70 /* taco.jpg */,
+				00F5A28B1EC1796800366C70 /* taco2.jpeg */,
 				00F5A25B1EC1774A00366C70 /* Main.storyboard */,
+				00F5A2851EC1788000366C70 /* TacoViewController.swift */,
+				00F5A2871EC1788D00366C70 /* BurritoViewController.swift */,
 				00F5A25E1EC1774A00366C70 /* Assets.xcassets */,
 				00F5A2601EC1774A00366C70 /* LaunchScreen.storyboard */,
 				00F5A2631EC1774A00366C70 /* Info.plist */,
@@ -233,6 +248,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				00F5A2621EC1774A00366C70 /* LaunchScreen.storyboard in Resources */,
+				00F5A28E1EC1796800366C70 /* taco2.jpeg in Resources */,
+				00F5A28D1EC1796800366C70 /* taco.jpg in Resources */,
+				00F5A28C1EC1796800366C70 /* burrito.jpg in Resources */,
 				00F5A25F1EC1774A00366C70 /* Assets.xcassets in Resources */,
 				00F5A25D1EC1774A00366C70 /* Main.storyboard in Resources */,
 			);
@@ -259,6 +277,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00F5A2881EC1788D00366C70 /* BurritoViewController.swift in Sources */,
+				00F5A2861EC1788000366C70 /* TacoViewController.swift in Sources */,
 				00F5A25A1EC1774A00366C70 /* ViewController.swift in Sources */,
 				00F5A2581EC1774A00366C70 /* AppDelegate.swift in Sources */,
 			);
